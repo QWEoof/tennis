@@ -12,8 +12,8 @@ pygame.display.set_caption("Ping-Pong")
 def run():
     game = True
     clock = pygame.time.Clock()
-    player1 = Board(50, 250, 20, 100, None, 5)
-    player2 = Board(750, 250, 20 , 100, None, 5)
+    player1 = Board(50, 250, 20, 250, None, 5)
+    player2 = Board(750, 250, 20 , 250, None, 5)
     ball = Ball(350, 250, 20, (255, 0, 0), None, choice([-5, 5]))
 
 

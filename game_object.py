@@ -43,6 +43,16 @@ class Ball():
 
 
 
+def win_lose_score(window, ball, board1, board2):
+    score1 = 0
+    score2 = 0
+    if ball.X - ball.RADIUS < board1.x:
+        score += 1
+    elif ball.x + ball.RADIUS > board2.x:
+        score1 += 1
+        ball.x
+
+
 
 
 
