@@ -40,7 +40,8 @@ class Ball():
             self.DIRECTION = not self.DIRECTION
         self.X += self.ANGLE
         self.Y += self.VERTICAL
-        
+
+
 
 
 
